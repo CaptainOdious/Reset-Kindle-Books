@@ -1,6 +1,6 @@
 # Reset Kindle Books
 
-A Kindle extension that resets the reading progress of books whose progress is strictly between 0% and 100%, then restores their **NEW** badge. It can also restore a previous backup of `cc.db`.
+A Kindle extension that resets the reading progress of new downloaded books whose progress has automatically jumped between 0% and 1% without being opened, then restores their **NEW** badge. It can also restore a previous backup of `cc.db`.
 
 The extension is designed to be launched from the Kindle menu through **KUAL** and runs in **KTerm**, keeping its output visible and writing an operation log.
 
@@ -140,7 +140,6 @@ Before restoring, the script creates a safety backup of the current `cc.db` stat
 - **No backups available**: check the contents of `/mnt/us/documents/ccdb_reset_backups`.
 - **Prompts are invisible**: use `run.sh` / KTerm; `run_inner.sh` keeps interactive output visible.
 - **Check errors**: inspect `/mnt/us/documents/reset_books.log`.
-
+  
 ## License
-
 Choose and add a license before publishing this repository, for example MIT or GPL-3.0.
