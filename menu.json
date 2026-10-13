@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "name": "Reset Books",
+            "priority": 1,
+            "items": [
+                {
+                    "name": "Reset to new",
+                    "priority": 1,
+                    "action": "./bin/run_reset.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "Restore database",
+                    "priority": 2,
+                    "action": "./bin/run_restore.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "Script by CptOdious",
+                    "priority": 9999,
+                    "exitmenu": false,
+                    "refresh": false,
+                    "status": false,
+                    "action": ""
+                }
+            ]
+        }
+    ]
+}
