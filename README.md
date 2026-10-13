@@ -1,6 +1,6 @@
 # Reset Kindle Books
 
-A Kindle extension that resets the reading progress of new downloaded books whose progress has automatically jumped between 0% and 1% without being opened, then restores their **NEW** badge. It can also restore a previous backup of `cc.db`.
+An interactive KUAL extension that resets the reading progress of new downloaded books whose progress has automatically jumped between 0% and 1% without being opened, then restores their **NEW** badge. It can also restore a previous backup of `cc.db`.
 
 The extension is designed to be launched from the Kindle menu through **KUAL** and runs in **KTerm**, keeping its output visible and writing an operation log.
 
@@ -23,7 +23,7 @@ Use it only on a Kindle you control and only if you understand the risks. Make a
 ## Requirements
 
 - A jailbroken Kindle.
-- **KUAL** installed.
+- **KUAL/KUALA/KUAL Next** installed.
 - **KTerm** installed at `/mnt/us/extensions/kterm`.
 - Kindle Python 3 available at `/mnt/us/python3/python/bin/python3`.
 
