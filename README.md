@@ -41,12 +41,13 @@ Use it only on a Kindle you control and only if you understand the risks. Make a
    /mnt/us/extensions/reset_books/
    ├── config.xml
    ├── menu.json
-   ├── run.sh
-   ├── run_reset.sh
-   ├── run_restore.sh
-   ├── run_inner.sh
-   ├── reset_kindle_books.py
-   └── restore_cc_backup.py
+      /bin
+      ├── run.sh
+      ├── run_reset.sh
+      ├── run_restore.sh
+      ├── run_inner.sh
+      ├── reset_kindle_books.py
+      └── restore_cc_backup.py
    ```
 
 3. Make the shell scripts executable:
