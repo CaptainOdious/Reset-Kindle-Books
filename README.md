@@ -141,3 +141,8 @@ Before restoring, the script creates a safety backup of the current `cc.db` stat
 - **No backups available**: check the contents of `/mnt/us/documents/ccdb_reset_backups`.
 - **Prompts are invisible**: use `run.sh` / KTerm; `run_inner.sh` keeps interactive output visible.
 - **Check errors**: inspect `/mnt/us/documents/reset_books.log`.
+
+## Licence
+
+Ce projet est distribué sous les termes de la licence  
+[GNU General Public License v3.0](./LICENSE).
