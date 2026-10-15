@@ -142,7 +142,7 @@ Before restoring, the script creates a safety backup of the current `cc.db` stat
 - **Prompts are invisible**: use `run.sh` / KTerm; `run_inner.sh` keeps interactive output visible.
 - **Check errors**: inspect `/mnt/us/documents/reset_books.log`.
 
-## Licence
+## License
 
-Ce projet est distribué sous les termes de la licence  
+This project is licensed under the terms of the  
 [GNU General Public License v3.0](./LICENSE).
