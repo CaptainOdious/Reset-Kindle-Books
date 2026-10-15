@@ -146,3 +146,10 @@ Before restoring, the script creates a safety backup of the current `cc.db` stat
 
 This project is licensed under the terms of the  
 [GNU General Public License v3.0](./LICENSE).
+
+## Disclaimer
+
+- **Not affiliated with Amazon.** "Kindle" and "Amazon" are trademarks of Amazon.com, Inc. This is an independent, unofficial project; the names are used only descriptively to indicate compatibility.
+- **For personal use with your own device** and your own books/documents.  
+- **Jailbreaking may violate Amazon's Terms of Service.**
+- Provided as-is, without warranty, under the GPL v3. **Use at your own risk.**
